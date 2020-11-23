@@ -1,3 +1,10 @@
-What macro molecule makes up proteins?|Lipids,Amino Acids,Carbohydrates,Nucleic Acids
-Which of the following is a national symbol of the Philippines?|Mango,Abaniko,Anahaw,Sipa
-The most favorite dish of the cartoon cat Garfield is?|Lasagna,Donuts,Spaghetti,Pizza
+What macro molecule makes up proteins?|Lipids,Amino Acids,Carbohydrates,Nucleic Acids,Amino Acids
+Which of the following is not a national symbol of the Philippines?|Mango,Abaniko,Anahaw,Sipa,Abaniko
+The most favorite dish of the cartoon cat Garfield is?|Lasagna,Donuts,Spaghetti,Pizza,Lasagna
+Which of the following is also known as Retinol?|Vitamin A, Vitamin B, Vitamin C, Vitamin D,Vitamin A
+Which of the following is the canonical title of Star Wars Episode V?|A New Hope,Revenge of the Sith,The Last Jedi,The Empire Strikes Back,The Empire Strikes Back
+Which of the following famous video game characters has the power to copy the abilities of anything they consume?|Link,Mario,Kirby,Samus,Kirby
+Who was the 7th president of the Philippine Republic?|Ramon Magsaysay,Carlos Garcia,Jose Laurel,Ferdinand Marcos,Ramon Magsaysay
+In the film Hunger Games, who was the president of Panem?|President Rain,President Snow,President Star,Presdent Cloud,President Snow
+In the famous game Pokemon Fire Red, who was the grass-type starter?|Charmander,Bulbasaur,Squirtle,Pikachu,Squirtle
+Which of the following is the 3rd longest river in the world?|Amazon River,Nile River,Yellow River,Yangtze River,Yangtze River
