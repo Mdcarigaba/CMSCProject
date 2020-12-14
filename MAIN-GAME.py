@@ -1,9 +1,9 @@
 import time
 import random
 
-#Life Lines
+# Life Lines
 
-#Phone a Friend
+# Phone a Friend
 f=(random.choice(list(open("trial-questionbank.txt"))))
 line = f.split("|")
 question = line[0]
@@ -96,15 +96,21 @@ def arrogantFriend(friend_name, name):
         else:
             print(answer[n])
 
-#arrogantFriend("<input friend name here>", "Kobe") #for trial purposes just remove first '#' then run
+# arrogantFriend("<input friend name here>", "Kobe") #for trial purposes just remove first '#' then run
 
-#50/50
+# 50/50
 def fifty(name):
     n = random.randint(1,3)
-        if n == 1:
+    if n == 1:
+        print("Here are your new set of choices.")
+        if answer[random.randint(0,3)] == answer[4]:
+            print("Your remaining choices are:",) #append file here
+        else: 
+            print("Your remaining choices are:")
+        elif n == 2:
             print("Here are your new set of choices.")
             if answer[random.randint(0,3)] == answer[4]:
                 print("Your remaining choices are:",) #append file here
-            else: print("Your remaining choices are")
-        elif n == 2:
-        else:
+            else: 
+                print("Your remaining choices are")   
+        #else:

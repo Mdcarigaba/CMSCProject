@@ -4,7 +4,7 @@ import sys
 
 #Rules and info about the Lifelines
 def rules(name):
-    print(name, ", Would like the game to be in English or in Filipino?")
+    print(name, ", Would you like the game to be in English or in Filipino?")
     n = 1
     while n == 1:
         ch = str(input("Enter language: "))
@@ -44,9 +44,9 @@ def rules(name):
         elif ch.lower() == "filipino":
             print("Ok,", name, "makinig nang mabuti.\n")
             time.sleep(2)
-            print("Mayroong 5 na tanong bawat lebel ng Easy, Average, at Difficult na bumubuo sa 15 na katanungan.\n")
+            print("Mayroong 5 tanong ang bawat lebel ng Easy, Average, at Difficult na bumubuo sa 15 na katanungan.\n")
             time.sleep(2)
-            print("Ang bawat tamang sagot ay gagantimpalaan ka ng cash price.\n")
+            print("Sa bawat tamang sagot ay gagantimpalaan ka ng cash price.\n")
             time.sleep(2)
             print("Magsisimula ang halaga nito mula 1,000 pesos paakayat ng 1,000,000 pesos\n")
             time.sleep(2)
@@ -54,7 +54,7 @@ def rules(name):
             time.sleep(2)
             print("Kapag mali ang iyong sagot, iuuwi mo ang 1/4 ng napanalunan mo.\n")
             time.sleep(4)
-            print("\nMayroon kang 2 na lifeline.\n")
+            print("\nMayroon kang 2 lifeline.\n")
             time.sleep(2)
             print("PHONE A FRIEND: \n")
             time.sleep(2)
