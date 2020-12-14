@@ -9,6 +9,7 @@ line = f.split("|")
 question = line[0]
 answer = line[1].strip("\n").split(",")
 def wiseFriend(friend_name,name):
+    print("Lifeline: Call a friend")
     choice = random.randint(1, 10)
     print(">>> Hello,", friend_name, "Your friend,",name,"needs your help on this question.")
     time.sleep(2)
@@ -39,6 +40,7 @@ def wiseFriend(friend_name,name):
 
 
 def unsureFriend(friend_name,name):
+    print("Lifeline: Call a friend")
     choice = random.randint(1, 10)
     print(">>> Hello,", friend_name, "Your friend,", name, "needs your help on this question.")
     time.sleep(2)
@@ -68,6 +70,7 @@ def unsureFriend(friend_name,name):
             print(answer[n])
 
 def arrogantFriend(friend_name, name):
+    print("Lifeline: Call a friend")
     choice = random.randint(1, 10)
     print(">>> Hello,", friend_name, "Your friend,", name, "needs your help on this question.")
     time.sleep(2)
@@ -100,17 +103,20 @@ def arrogantFriend(friend_name, name):
 
 # 50/50
 def fifty(name):
+    print("Lifeline: 50/50")
     n = random.randint(1,3)
-    if n == 1:
-        print("Here are your new set of choices.")
-        if answer[random.randint(0,3)] == answer[4]:
+    #if n == 1:
+    print("Two answers will be removed.")
+    print("Thus, you will have one correct and one incorrect answer to choose from.")
+    print("Here are your new set of choices.")
+
+    #time.sleep(1)
+
+    print (answer[n])
+       
+    ''' if answer[random.randint(0,3)] == answer[4]:
             print("Your remaining choices are:",) #append file here
         else: 
             print("Your remaining choices are:")
-        elif n == 2:
-            print("Here are your new set of choices.")
-            if answer[random.randint(0,3)] == answer[4]:
-                print("Your remaining choices are:",) #append file here
-            else: 
-                print("Your remaining choices are")   
-        #else:
+        elif n == 2:  
+        #else: '''
